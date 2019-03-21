@@ -1,4 +1,18 @@
-## Polls App
+## Polls App with drf
+
+### Install requirements
+```
+pip install -r requirements.txt
+```
+
+### Migrate and start server
+```
+python pollsapp/manage.py makemigrations
+
+python pollsapp/manage.py migrate
+
+python pollsapp/manage.py runserver
+```
 
 ### Swagger link
 * http://localhost:8000/swagger_doc/
